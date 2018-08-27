@@ -3116,6 +3116,18 @@ YEAR(date)
         <p>E.g., <code>YEAR(DATE '1994-09-27')</code> returns 1994.</p>
       </td>
     </tr>
+
+	<tr>
+      <td>
+        {% highlight text %}
+ISOYEAR(date)
+{% endhighlight %}
+      </td>
+      <td>
+        <p>Returns the ISO year from SQL date <i>date</i>. Equivalent to EXTRACT(ISOYEAR FROM date).</p>
+        <p>E.g., <code>ISOYEAR(DATE '1994-09-27')</code> returns 1994.</p>
+      </td>
+    </tr>
     
     <tr>
       <td>

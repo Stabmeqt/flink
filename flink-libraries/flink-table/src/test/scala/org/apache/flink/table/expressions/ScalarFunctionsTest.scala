@@ -1845,6 +1845,16 @@ class ScalarFunctionsTest extends ScalarTypesTestBase {
       "20")
 
     testSqlApi(
+      "EXTRACT(ISOYEAR FROM f16)",
+      "1996"
+    )
+
+    testSqlApi(
+      "EXTRACT(ISOYEAR FROM f18)",
+      "1996"
+    )
+
+    testSqlApi(
       "EXTRACT(DOY FROM f18)",
       "315")
 

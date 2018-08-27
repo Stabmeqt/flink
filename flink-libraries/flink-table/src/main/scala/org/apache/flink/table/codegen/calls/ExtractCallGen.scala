@@ -36,6 +36,7 @@ class ExtractCallGen(returnType: TypeInformation[_], method: Method)
     val tpe = operands(1).resultType
     unit match {
       case TimeUnit.YEAR |
+           TimeUnit.ISOYEAR |
            TimeUnit.MONTH |
            TimeUnit.DAY |
            TimeUnit.QUARTER |
